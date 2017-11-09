@@ -45,12 +45,12 @@
     <feature name="Keyboard">
         <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
     </feature>
-    <name>IDEN</name>
+    <name>CallMyCab</name>
     <description>
-        Seguimiento en tiempo real de tu carga.
+        Call My Cab mobile application for taxi cab booking system.
     </description>
-    <author email="info@mediawebplace.com" href="http://mediawebplace.com/">
-        Media Web Place
+    <author email="info@techware.co.in" href="http://techware.co.in/">
+        Techware Solution
     </author>
     <content src="index.html" />
     <access origin="*" />
