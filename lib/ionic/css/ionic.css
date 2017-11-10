@@ -2260,7 +2260,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   vertical-align: baseline;
   font: inherit;
-  font-size: 100%; }
+  font-size: 93.47%; }
 
 ol, ul {
   list-style: none; }
@@ -7040,7 +7040,7 @@ a.button {
   -ms-flex: 1;
   flex: 1;
   display: block;
-  padding: 5px;
+  padding: 0px;
   width: 100%; }
 
 /* Vertically Align Columns */
