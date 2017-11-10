@@ -1,26 +1,26 @@
 /* BG COLOR
 =================*/
-.bg-image{ background-image: url('../img/landing.jpg');}
-.bg-yellow{ background-color: #13284c; }
+
+.bg-yellow{ background-color: rgba(0, 0, 0, 0); }
 .bg-black{ background-color: #;}
 .bg-white{background-color: #ffffff;}
 
-.bg-dark{ background-color: #0e0e0e !important;}
-.bg-dark1{ background-color: #2e2f32 !important;}
-.bg-dark2{background-color: rgba(0, 0, 0, 0.1) !important;}
+.bg-dark{ background-color: #ffffff !important;}
+.bg-dark1{ background-color: #000000 !important;}
+.bg-dark2{background-color: ##0a0a0a !important;}
 .bg-light{background-color: #38393D !important;}
 
 .color-white {color: #fff !important;}
-.bg-grey{  background-color: #000}
+.bg-grey{  background-color: #000000}
 
 /* common color */
-.color-yellow{ color:  #fafafa !important;}
+.color-yellow{ color:  #00b3e8 !important;}
 .color-gery{ color: #929292 !important }
 .color-d-gery{ color: #4d4d4d !important }
 
 .test-h{height: 40px}
 
-.border-r-yellow{ border-right: 1px solid #00303e}
+.border-r-yellow{ border-right: 1px solid #0685ab}
 
 
 .visible {
@@ -65,9 +65,9 @@
 }
 /* #set-top{ border: 1px solid #00b3e8;} */
 
-.popup{ background-color: #000 !important; border-radius: 10px !important;}
+.popup{ background-color: #000000 !important; border-radius: 10px !important;}
 
-.popup-head { border-bottom: 1px solid #111111 !important; }
+.popup-head { border-bottom: 1px solid #444444 !important; }
 
 .popup-title {}
 
@@ -77,7 +77,7 @@
 
 .popup-buttons.row {}
 
-.popup-buttons .button {border: 1px solid #000 !important; color: #00b3e8 !important; background-color:#111 !important; border-radius: 5px !important; }
+.popup-buttons .button {border: 1px solid #1C1C1C !important; color: #00b3e8 !important; background-color:#444444 !important; border-radius: 5px !important; }
 
 
 
