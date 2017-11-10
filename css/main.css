@@ -46,7 +46,7 @@
 
 
 
-#dark-head .bar-header{ background-color: #ffffff !important;border: none !important;}
+#dark-head .bar-header{ background-color: #0e0e0e !important;border: none !important;}
 /* #cab-from{ padding: 6px 0 5px 0px !important;} */
 
 
@@ -74,7 +74,7 @@ ion-scroll[direction=x] {
 }
 .bar-footer{ border: none !important;}
 
-#my-pop{ border-top: 3px solid  #000000;	}
+#my-pop{ border-top: 3px solid  #2e2f32;	}
 #my-pop .head-box{ height: 70px; }
 #fare-breakup-box{border-top: 1px solid #1C1C1C; margin-top: 15px;}
 
