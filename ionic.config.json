@@ -1,8 +1,0 @@
-{
-  "name": "project_dummy",
-  "app_id": "",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic1"
-}
