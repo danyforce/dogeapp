@@ -1,11 +1,11 @@
 <ion-view  class='bg-grey'>
 	<ion-nav-title>
-	 <div class='color-yellow text-center'>{{ 'Trip Details' | langTranslate: appConvertedLang['Trip_Details'] }}</div>
+	 <div class='color-white text-center'>{{ 'Trip Details' | langTranslate: appConvertedLang['Trip_Details'] }}</div>
   </ion-nav-title>
 	<ion-content  >
 		<div class='h-100-p  '>
 			<div id='det-box1'>
-				
+
 				<div class="row ">
 						<div class="col col-50 " >
 								<p class='color-white'>{{ 'BOOKING ID' | langTranslate: appConvertedLang['BOOKING_ID'] }}</p>
@@ -27,7 +27,7 @@
 					<hr class='yellow-hr'></hr>
 					<span class='mid-item bg-grey color-white'>{{ 'TO' | langTranslate: appConvertedLang['TO'] }}</span>
 				</div>
-				
+
 				<div class="row ">
 						<div class="col  col-center" >
 								<p class='color-white'>{{ 'DROP POINT' | langTranslate: appConvertedLang['DROP_POINT'] }}</p>
@@ -37,10 +37,10 @@
 							<div class="m-top-30 color-gery" ng-show='details.drop_time.length'>{{details.drop_time}} , {{details.drop_date}}</div>
 						</div>
 				</div>
-				
+
 			</div>
-	<p class='text-center color-yellow bg-light p-head no-margin'>{{ 'VEHICLE DETAILS' | langTranslate: appConvertedLang['VEHICLE_DETAILS'] }}</p>
-			
+	<p class='text-center color-white bg-light p-head no-margin'>{{ 'VEHICLE DETAILS' | langTranslate: appConvertedLang['VEHICLE_DETAILS'] }}</p>
+
 			<div class="row no-padding b-border-light">
 						<div class="col  r-border-light p-10 text-center" >
 							<p class='color-white p-head '>{{ 'CAB TYPE' | langTranslate: appConvertedLang['CAB_TYPE'] }}</p>
@@ -51,17 +51,17 @@
 							<p class='color-gery'>{{details.driver}}</p>
 						</div>
 			</div>
-			
+
 			<div id='det-box2' class='b-border-light f-size-17'>
 				<div class='row'>
-			<div class='col'><p class='color-yellow p-head no-margin'>{{ 'Payment Details' | langTranslate: appConvertedLang['Payment_Details'] }}</p> </div>
+			<div class='col'><p class='color-white p-head no-margin'>{{ 'Payment Details' | langTranslate: appConvertedLang['Payment_Details'] }}</p> </div>
 				</div>
 				<div class="row p-top-5  b-border-light">
 						<div class="col  p-10 col-center" >
 							<p class='color-gery no-margin'>{{ 'Distance' | langTranslate: appConvertedLang['Distance'] }}</p>
 						</div>
 						<div class="col   p-10 text-center col-center" >
-							<p class='pull-right'><span class='color-gery'>{{details.km}}</span> <span class='color-yellow'>km</span></p>
+							<p class='pull-right'><span class='color-gery'>{{details.km}}</span> <span class='color-white'>km</span></p>
 						</div>
 				</div>
 				<div class="row p-top-5 b-border-light">
@@ -69,13 +69,13 @@
 							<p class='color-gery no-margin'>{{ 'Total Amount' | langTranslate: appConvertedLang['Total_Amount'] }}</p>
 						</div>
 						<div class="col   p-10 text-center col-center" >
-							<p class='pull-right'><span class='color-yellow'>₹</span> <span class='color-gery'>{{details.amount}}</span></p>
+							<p class='pull-right'><span class='color-white'>₹</span> <span class='color-gery'>{{details.amount}}</span></p>
 						</div>
 				</div>
-			
-			</div>	
+
+			</div>
 			<p class='text-center color-white p-head'>{{ 'SEND YOUR FEED BACK' | langTranslate: appConvertedLang['SEND_YOUR_FEED_BACK'] }}</p>
 		</div>
-	<div class='color-white text-center net-error' >{{ 'No network connection!' | langTranslate: appConvertedLang['No_network_connection'] }}</div>	
+	<div class='color-white text-center net-error' >{{ 'No network connection!' | langTranslate: appConvertedLang['No_network_connection'] }}</div>
 	</ion-content>
-</ion-view>	
+</ion-view>
