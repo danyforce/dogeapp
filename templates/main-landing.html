@@ -47,8 +47,8 @@
 
 				<div id='fare-breakup-box' class='text-center'>
 
-					</div>
 					<!-- {{end_box}} -->
+
 				<!--	<p class='color-gery f-size-12 p10'>{{ 'Airport rate may differ, peak  time charges may apply.' | langTranslate: appConvertedLang['Airport_rate_may_differ_peaktime_chargesmayapply'] }}</p> -->
 				</div>
 
@@ -58,7 +58,7 @@
 
             <div class="row no-padding text-center ">
                 <div class="col col-25" ng-class="{active_cab : active_cab == $index }" ng-click='clicked_item($index)' ng-repeat="cab in cabs">
-                    <div class="col color-yellow">{{cab.cartype | limitTo:16 }}<span ng-show='cab.cartype.length > 16' ></span></div>
+                    <div class="col color-yellow">{{cab.cartype | limitTo:17 }}<span ng-show='cab.cartype.length > 17' ></span></div>
                     <img ng-src='img/{{cab.cartype}}.png' err-SRC="img/Sedan.png" style='width: 50px' />
                     <!-- <div class="col color-gery">{{day.number}}</div> -->
 
