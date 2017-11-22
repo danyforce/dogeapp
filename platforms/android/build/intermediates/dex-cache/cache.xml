@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/danielvaldez/Desktop/callmycabUser/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.0"
+        sha1="921203643cb1b729d169457a1cc2e009381396a7">
+        <dex dex="/Users/danielvaldez/Desktop/callmycabUser/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-6.3.0-release_dba0ed32da8dc3b8a843f34a49569b01c92121e8.jar" />
+    </item>
+
+</items>
