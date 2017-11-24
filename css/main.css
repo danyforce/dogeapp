@@ -27,7 +27,7 @@
 .full-height{ height: 100%;}
 
 
-#landing-page{ background-image: url('../img/landing.jpg');}
+
 #login-page{ background-image: url('../img/login_bg.jpg');}
 #sign-up-page{ background-image: url('../img/sign_up_bg.jpg');}
 
@@ -46,22 +46,22 @@
 
 
 
-#dark-head .bar-header{ background-color: #ffffff !important;border: none !important;}
+#dark-head .bar-header{ background-color: #161616 !important;border: none !important;}
 /* #cab-from{ padding: 6px 0 5px 0px !important;} */
 
 
-#main-land-container{ height: 100%; border-top: 1px solid ##cdd7e3!important;border-bottom: 1px solid #282828; }
+#main-land-container{ height: 100%; border-top: 1px solid #000000!important;border-bottom: 1px solid #282828; }
 .target-box{ padding: 10px 0;}
-.target-box .wrap{  width: calc(100% - 40px) !important;  margin: 0 auto ; background-color: #cdd7e3; border-radius: 15px;}
+.target-box .wrap{  width: calc(100% - 40px) !important;  margin: 0 auto ; background-color: #302e2e; border-radius: 15px;}
 .target-box .item-input{ padding: 0 0 0 16px;}
 .target-box input{ height: 27px !important;}
-#menu-list .wrap-it{ padding: 0 0 0 15px;border-bottom: 8px solid #rgba(0, 0, 0, 0); }
+#menu-list .wrap-it{ padding: 0 0 0 15px;border-bottom: 8px solid #1b1b1d; }
 /* #menu-list{ height: 100%;} */
 
 #menu-list .item{  border: none; border-bottom: 1px solid #161616; }
 #menu-list .wrap-it .item{ padding-top: 12px !important; padding-bottom: 12px !important;}
-a.active-menu{color: #00b3e8 !important;}
-a.active-menu *{color: #00b3e8 !important;}
+a.active-menu{color: #F2C21E !important;}
+a.active-menu *{color: #F2C21E !important;}
 .no-border{ border: none !important;}
 
 #profile-box{ margin-top: 30px;}
@@ -74,7 +74,7 @@ ion-scroll[direction=x] {
 }
 .bar-footer{ border: none !important;}
 
-#my-pop{ border-top: 3px solid  #242f3e;	}
+#my-pop{ border-top: 3px solid  #1C1C1C;	}
 #my-pop .head-box{ height: 70px; }
 #fare-breakup-box{border-top: 1px solid #1C1C1C; margin-top: 15px;}
 
@@ -84,7 +84,7 @@ ion-scroll[direction=x] {
 	color: #fff;
 }
 .item-rate{ border-right: 1px solid #1C1C1C; height: 80px;}
-.active_cab{ border-top: 2px solid #00b3e8;}
+.active_cab{ border-top: 2px solid #F2C21E;}
 
 #trip-date{ }
 
@@ -102,7 +102,7 @@ ion-scroll[direction=x] {
 
 .Menu-tab-head{ height: 35px; line-height: 35px;  }
 #head-tab-area .col{border: 1px solid #161616;}
-#head-tab-area .col.active{ background-color: #00b3e8; color:#000; }
+#head-tab-area .col.active{ background-color: #F2C21E; color:#000; }
 #content-tab-area{ padding: 10px 0 0 20px; height: calc(100% - 50px); overflow: auto;}
 #rateCard-tab-area{  height: calc(100% - 50px); overflow: auto;}
 #content-tab-area .item{ border: none !important; border-bottom: 1px solid #5B5C5D !important;
@@ -112,21 +112,21 @@ ion-scroll[direction=x] {
 
 ion-header-bar .back-text ,
 ion-header-bar .ion-ios-arrow-back{
-	color:  #00b3e8 !important;
+	color:  #F2C21E !important;
 }
 #det-box1{
 	padding: 10px;
 }
 
 .yellow-hr{
-	height: 1px !important; background-color: #00b3e8 !important;position: relative; ;
+	height: 1px !important; background-color: #F2C21E !important;position: relative; ;
 }
 .mid-item{  display: block;
     margin: -10px auto 0;
     position: relative;
     width: 40px; }
-
-.p-head{ height: 30px; line-height: 30px;}
+		
+.p-head{ height: 30px; line-height: 30px;}		
 .r-border-light{ border-right: 1px solid #38393D !important;}
 .b-border-light{ border-bottom: 1px solid #38393D !important;}
 #det-box2{ padding: 20px 10% 40px;margin-bottom: 10px;}

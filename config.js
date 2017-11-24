@@ -1,3 +1,5 @@
-var server_domain = 'http://elt-iden.com';
-var secret_key = "idenforever";
+var server_domain = 'http://tchwr.in/NewCallmycab';
+var secret_key = "My_key";
 var wordpress = false;
+
+
