@@ -27,11 +27,11 @@ App.controller('AppCtrl', function($scope,$rootScope,$cordovaNetwork, $ionicModa
 			
 		}
 	  	
-		/*if( $cordovaNetwork.isOffline() ){
+		if( $cordovaNetwork.isOffline() ){
 			
 			set_net('offline');
 			
-		}else{*/
+		}else{
 			if( localStorage.getItem('user_data') === null ){
 		
 			}else{
@@ -44,7 +44,7 @@ App.controller('AppCtrl', function($scope,$rootScope,$cordovaNetwork, $ionicModa
 				$state.go('app.landing', {}, {reload: true}); 
 				//$state.go('app.landing');
 			}
-		//}
+		}
 		
 		$rootScope.$on('$cordovaNetwork:online', function(event, networkState){
        set_net( 'online' );
