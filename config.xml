@@ -4,7 +4,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.appsmediaweb.iden"
+<<<<<<< HEAD
         version   = "1.0">
+=======
+        version   = "1.0.0">
+>>>>>>> 4add9e56e083e8aa14830c60a9f733288ad458fd
 
     <name>IDEN</name>
 
