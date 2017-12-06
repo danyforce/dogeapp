@@ -61,7 +61,6 @@
         <string>100</string>
     </gap:config-file>
     <access origin="*" />
-    <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -75,5 +74,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="ios" spec="~4.5.4" />
+    <engine name="ios" spec="4.5.4" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>

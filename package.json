@@ -11,7 +11,7 @@
     }
   },
   "dependencies": {
-    "cordova-ios": "~4.5.4",
+    "cordova-ios": "4.5.4",
     "cordova-plugin-whitelist": "1"
   }
 }
