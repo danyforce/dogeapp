@@ -115,7 +115,7 @@
     <gap:splash src="res/screen/ios/Default@2x~iphone.png"              gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/Default~iphone.png"                 gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/Default-736h.png"                   gap:platform="ios"     width="1242" height="2208" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
+    <gap:splash src="res/screen/windows-phone/screen.png"      gap:platform="winphone" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>100</string>
