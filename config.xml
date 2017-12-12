@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.appsmediaweb.iden"
         versionCode = "10"
-        version   = "1.0.0">
+        version   = "1.0">
 
     <name>IDEN</name>
 
@@ -118,7 +118,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>100</string>
+    <string>10</string>
     </gap:config-file>
 
     <!--
